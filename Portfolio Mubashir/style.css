@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+/* body{
+  position: relative;
+} */
+#hero {
+  height: 82vh;
+  width: 100%;
+  background-color: #363543;
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.logo {
+  color: #f5f5f5;
+  padding-left: 50px;
+  cursor: pointer;
+}
+nav ul {
+  padding-left: 72px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 22px;
+}
+nav ul li a {
+  color: #595868;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #f5f5f5;
+  transition: 0.4s;
+}
+nav a {
+  list-style: none;
+  display: inline-block;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+.home {
+  background-color: #363543;
+}
+.heading-1 {
+  padding-top: 16vh;
+  font-size: 40px;
+  padding-left: 50px;
+  color: #868595;
+  letter-spacing: 2px;
+}
+.heading-2 {
+  padding-left: 48px;
+  padding-top: 23px;
+  font-size: 39px;
+  color: #f4f4fd;
+  letter-spacing: 1px;
+}
+
+#line {
+  border: 2px solid #4b3818;
+  background-color: #e3b655;
+  margin-left: 49px;
+  width: 32vh;
+  height: 8px;
+  margin-top: 18px;
+}
+#circle {
+  background-color: #2d2d39;
+  width: 54vh;
+  height: 58vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 357px;
+  bottom: 164px;
+}
+#image {
+  padding-bottom: 25px;
+  position: absolute;
+  padding-left: 46px;
+  left: 357px;
+  bottom: 164px;
+}
+#para1 {
+  color: #6b6879;
+  width: 52vh;
+  padding-left: 49px;
+  padding-top: 47px;
+}
+#para2 {
+  position: absolute;
+  left: 669px;
+  color: #c4c3d1;
+  width: 48vh;
+  top: 123px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.services {
+  font-size: 16px;
+}
+.showmore {
+  color: #bf9841;
+  font-size: 14px;
+}
+.rtarrow1 {
+  color: #bf9841;
+  padding-left: 12px;
+}
+.four-icons {
+  display: flex;
+  align-items: center;
+}
+.fb {
+  width: 28px;
+  height: 28px;
+  background-color: #494855;
+  color: #8d6925;
+  border-radius: 50%;
+  padding-left: 8px;
+  margin-left: 10px;
+}
+.twitter {
+  width: 28px;
+  height: 28px;
+  background-color: #494855;
+  color: #8d6925;
+  border-radius: 50%;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.insta {
+  width: 28px;
+  height: 28px;
+  background-color: #494855;
+  color: #8d6925;
+  border-radius: 50%;
+  padding-left: 6px;
+  margin-left: 10px;
+}
+.pinterest {
+  width: 28px;
+  height: 28px;
+  background-color: #494855;
+  color: #8d6925;
+  border-radius: 50%;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.four-items {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  background-color: #403f4f;
+  width: 138vh;
+  height: 80px;
+  left: 48px;
+  bottom: 72px;
+}
+.meta1 {
+  width: 22vh;
+  height: 52px;
+  background-color: #363543;
+  margin-top: 14px;
+}
+.google1 {
+  width: 22vh;
+  height: 52px;
+  background-color: #363543;
+  margin-top: 14px;
+}
+.linkedin1 {
+  width: 22vh;
+  height: 52px;
+  background-color: #363543;
+  margin-top: 14px;
+}
+.slack1 {
+  width: 22vh;
+  height: 52px;
+  background-color: #363543;
+  margin-top: 14px;
+}
+#About {
+  background-color: #282834;
+  height: 100vh;
+  width: 100%;
+}
+#needs h2 {
+  padding-left: 48px;
+  color: #f4f4fd;
+  letter-spacing: 1px;
+  width: 64vh;
+  line-height: 55px;
+  font-size: 34px;
+  padding-top: 26vh;
+  font-family: sans-serif;
+}
+#need {
+  color: #868593;
+  padding-left: 49px;
+  width: 57vh;
+  padding-top: 16px;
+}
+.twofifty {
+  color: #e0a73e;
+  padding: 34px 0px 0px 48px;
+  line-height: 27px;
+}
+#two {
+  font-size: 27px;
+}
+#projects {
+  font-size: 13.5px;
+}
+.hund {
+  color: #e0a73e;
+  padding: 34px 0px 0px 48px;
+  line-height: 27px;
+  position: absolute;
+  left: 26vh;
+  bottom: -49vh;
+}
+#one {
+  font-size: 27px;
+}
+#community {
+  font-size: 13.5px;
+}
+.thirty {
+  color: #e0a73e;
+  padding: 34px 0px 0px 48px;
+  line-height: 27px;
+}
+#three {
+  font-size: 27px;
+}
+#contract {
+  font-size: 13.5px;
+}
+.years {
+  color: #e0a73e;
+  padding: 34px 0px 0px 48px;
+  line-height: 27px;
+  position: absolute;
+  left: 26vh;
+  bottom: -62vh;
+}
+#ten {
+  font-size: 27px;
+}
+#exp {
+  font-size: 13.5px;
+}
+.container{
+  position: absolute;
+  bottom: -61vh;
+  width: 50%;
+  left: 75vh;
+}
+.uiux img{
+display: flex;
+width: 141px;
+}
+.frontend img{
+  display: flex;
+  width: 141px;
+}
+.mobileapp img{
+  display: flex;
+  width: 141px;
+}
+.hr{
+background-color: #383643;
+width: 70vh;
+height: 2px;
+}
+.design{
+  position: absolute;
+  left: 23vh;
+  bottom: 48vh;
+  color: whitesmoke;
+}
+.pro{
+  color: #77777f;
+  position: absolute;
+  left: 23vh;
+  bottom: 43vh;
+  font-size: 14px;
+}
+.design1{
+  position: absolute;
+  left: 23vh;
+  bottom: 31vh;
+  color: whitesmoke;
+}
+.front{
+  color: #77777f;
+  position: absolute;
+  left: 23vh;
+  bottom: 26vh;
+  font-size: 14px;
+}
+.design2{
+  position: absolute;
+  left: 23vh;
+  bottom: 12vh;
+  color: whitesmoke;
+}
+.app{
+  color: #77777f;
+  position: absolute;
+  left: 23vh;
+  bottom: 7vh;
+  font-size: 14px;
+}
+#service{
+  background-color: #292735;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card{
+  width: 262px;
+  height: 256px;
+  padding: 30px 18px;
+  background: #403f51;
+  border-radius: 2px;
+  margin: 29px;
+  position: relative;
+  overflow: hidden;
+  text-align: start;
+}
+.box{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  min-height: 340px;
+}
+.pra p{
+  color: #fcfc;
+  font-size: 20px;
+  line-height: 30px;
+}
+.pra2{
+  color: #747385;
+  line-height: 26px;
+  padding-top: 7px;
+  padding-right: 9px;
+  font-size: 17px;
+}
+.pra1{
+  color: #747385;
+  line-height: 26px;
+  padding-top: 7px;
+  padding-right: 9px;
+  font-size: 17px;
+}
+.pra3{
+  color: #747385;
+  line-height: 26px;
+  padding-top: 7px;
+  padding-right: 9px;
+  font-size: 17px;
+}
+.font{
+  color: #f7b523;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: #343447;
+}
+#font1{
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+#font2{
+  padding-top: 9px;
+    padding-left: 7px;
+    font-size: 20px;
+}
+#font3{
+  padding-top: 10px;
+    padding-left: 12px;
+    font-size: 20px;
+}
+.card h5{
+color: 	hsl(60, 52%, 94%);
+font-size: 19px;
+padding-top: 6px;
+}
